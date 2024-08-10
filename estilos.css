@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1e90ff;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #1e90ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1c86ee;
+}
+
+#rates-section {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#rates-section h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#exchangeRates {
+    font-size: 16px;
+}
+
+#conversionResult {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+#cart {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#cart h2 {
+    font-size: 20px;
+    color: #1e90ff;
+    margin-bottom: 10px;
+}
+
+#cartList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cartList li {
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cartList li button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cartList li button:hover {
+    background-color: #ff4b4b;
+}
+
+#confirmBtn {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#confirmBtn:hover {
+    background-color: #218838;
+}
